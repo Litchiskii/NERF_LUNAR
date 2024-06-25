@@ -10,8 +10,6 @@ This repository contains a Python script (`nerf.py`) implementing a Neural Radia
 - **train Function:** Handles training of the NeRF model using ray datasets.
 - **test Function:** Generates and saves rendered images for evaluation.
 
-### Usage
-
 The script loads training and testing datasets, trains the NeRF model, and renders images for evaluation.
 
 
