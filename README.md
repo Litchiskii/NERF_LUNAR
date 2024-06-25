@@ -23,10 +23,4 @@ The trial.py file is a simplified version of NeRF and is not fully functional. I
 - **Disclaimer**
 This implementation is just a trial and is not fully functional. I have taken help from various source codes and tried to combine them into a cohesive script. However, it may not produce the expected results and is intended for educational purposes only.
 
--**Code Explanation**
--*Positional Encoding Function*:Converts 3D input coordinates into a higher-dimensional space using sine and cosine functions.
--NeRF Model:An MLP with several linear layers and ReLU activations.Processes both positional and view directions separately and combines them for the final RGB and density outputs.
--Volume Rendering Function:Integrates color and density outputs from the NeRF model along each ray. Accumulates colors using weights derived from the alpha values.
--Training Function:Optimizes the NeRF model using an Adam optimizer and MSE loss.Iterates through the dataset, computing predictions and updating model weights.
--Dummy Dataset:A simple dataset class to generate random rays and target images for training.
--Main Function:Sets up model and dataset, then trains the model. Renders a test image from random rays.
+The code in trial.py includes a positional encoding function that converts 3D input coordinates into a higher-dimensional space using sine and cosine functions. The NeRF model itself is an MLP with several linear layers and ReLU activations, which processes both positional and view directions separately and combines them for the final RGB and density outputs. The volume rendering function integrates color and density outputs from the NeRF model along each ray and accumulates colors using weights derived from the alpha values. The training function optimizes the NeRF model using an Adam optimizer and MSE loss, iterating through the dataset, computing predictions, and updating model weights. A dummy dataset is used to generate random rays and target images for training. Finally, the main function sets up the model and dataset, then trains the model and renders a test image from random rays.
