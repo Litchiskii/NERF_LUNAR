@@ -16,7 +16,7 @@ The script loads training and testing datasets, trains the NeRF model, and rende
 
 
 
-###NeRF Trial Implementation (trial.py)
+### NeRF Trial Implementation (trial.py)
 This repository contains a trial implementation of Neural Radiance Fields (NeRF) in the trial.py file. This implementation is based on the original paper "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis" by Ben Mildenhall et al.
 
 Overview
